@@ -1,3 +1,5 @@
+<img src='./youtube.png' width="100%" height='320'/>
+
 <h1 color='blue'>Some handwritten js snippets which I used along the way learning javascript</h1>
 
 <br>
