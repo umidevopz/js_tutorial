@@ -15,11 +15,6 @@ rl.question('Insert what you want to search\n', (name) => {
 			let found = str.indexOf(input, pos)
 			if(found == -1) {break}
 			console.log('Found at ' + pos)
-			// let str_arr = str.split('');
-			// str_arr[found] = chalk.red(str_arr[found])
-			// let format = str_arr.join('')
-			// console.log(format)
-			// pos = found + 1
 		console.log(str.split('').map((char, index) => index === found ? chalk.red(char) : char).join(''));
 		pos = found + 1;
 	}	
