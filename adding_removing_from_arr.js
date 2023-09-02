@@ -21,4 +21,25 @@ console.log(arrLength)
 
 
 // Methods that work with the beginning of the array: 
-// shift()
+// shift() method extracts the first element of the array and returns it;
+
+const extractedFirst = arr.shift()
+
+console.log(extractedFirst)
+
+// unshift() method adds the element to the beginning of the arrays and returns length of array
+
+const addedFirst = arr.unshift('common')
+
+console.log(addedFirst)
+
+
+// Methods push and unshift can add multiple elements at once:
+// Example
+//let fruits = ["Apple"];
+
+//fruits.push("Orange", "Peach");
+//fruits.unshift("Pineapple", "Lemon");
+
+// ["Pineapple", "Lemon", "Apple", "Orange", "Peach"]
+//alert( fruits );
