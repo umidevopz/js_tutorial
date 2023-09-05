@@ -30,4 +30,12 @@ console.log( removed ); // "I", "study" <-- array of removed elements
 
 // you can insert elemets without removing 
 
-  
+arr = ['i', 'study', 'math']
+
+console.log(arr.splice(2, 0 , 'every', 'day'));
+
+// While using splice you are allowed to have negative index in splice method 
+
+arr = ['i','know', 'better']
+console.log(arr.splice(-1 , 0, 'you', 'than')); // ['i', 'know', 'better', 'than', 'you']
+
