@@ -1,4 +1,4 @@
-## Javascript Tutorials and their reviews
+## Javascript Tutorials
 
 ### List (year: 2023)
 
